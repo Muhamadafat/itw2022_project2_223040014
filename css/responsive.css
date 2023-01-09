@@ -1,0 +1,93 @@
+@media screen and (max-width: 1024px) {
+}
+
+/* TABLET */
+@media screen and (max-width: 768px) {
+}
+
+/* HANDPHONE */
+@media screen and (max-width: 500px) {
+  /* navbar */
+
+  .navbar-brand {
+    font-size: 10px;
+  }
+
+  /* home */
+
+  .home {
+    background-position-x: 50%;
+    font-size: 20px;
+  }
+
+  /* contact */
+
+  .container-contact {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content-contact {
+    width: 90%;
+    margin-right: 0% !important;
+    margin-top: 0% !important;
+  }
+
+  /* aboutus */
+
+  .aboutus {
+    flex-direction: column !important;
+    align-items: center;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .aboutus h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+
+  .aboutus img {
+    width: 200px;
+  }
+
+  .aboutimage {
+    margin: 0% !important;
+  }
+
+  .abouttext {
+    margin-right: 0% !important;
+  }
+
+  /* projects */
+  .projects-text h1 {
+    text-align: center;
+    font-family: arial;
+    font-weight: bold;
+  }
+
+  .projects {
+    background-color: rgb(7, 7, 7);
+    padding: 80px 50px;
+  }
+
+  .projects-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    border-radius: 20px;
+  }
+
+  .projects-image {
+    margin: 0% !important;
+  }
+
+  /* clients */
+
+  .clients-content {
+    padding: 0 30px;
+  }
+}

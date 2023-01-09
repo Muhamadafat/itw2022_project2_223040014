@@ -1,0 +1,100 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Navbar style */
+
+/* .navbar {
+  background: transparent;
+} */
+
+.nav-link {
+  font-family: arial;
+}
+
+.navbar-brand {
+  font-size: 18px;
+}
+
+.nama-brand {
+  margin-top: 9px !important;
+  font-size: 13px;
+  font-family: arial;
+}
+
+/* Beranda style */
+.home {
+  background-image: url(../img/background-banner.jpeg.jpg);
+  padding: 350px 0;
+  background-size: cover;
+  background-position-y: 30%;
+}
+
+.home h1 {
+  color: white;
+  text-shadow: 0 0 5px black;
+}
+
+/* tentang-kami style */
+
+.aboutus {
+  color: white;
+  padding: 150px 0;
+  background: #111;
+  border-bottom: 1px;
+}
+
+/* service style */
+.Projects {
+  background-color: rgb(6, 6, 6);
+  padding: 150px 0;
+}
+
+.Projects img {
+  box-shadow: 0 0 5px black;
+}
+
+.projects-card {
+  background-color: rgb(5, 5, 5);
+}
+
+/* clients style */
+.Clients {
+  padding: 100px 10px !important;
+  background-color: black !important;
+}
+.clients-project {
+  padding: 150px 0;
+  color: rgb(255, 255, 255);
+}
+
+.clients-content img {
+  width: 700px !important;
+  background: rgb(5, 5, 5) !important;
+}
+
+.clients h1 {
+  font-family: arial;
+  margin-bottom: 100px;
+  color: white !important;
+}
+
+/* contact style */
+
+.contact {
+  background-color: rgb(6, 6, 6);
+  color: white;
+  padding: 150px 0;
+}
+
+.contact h1 {
+  font-size: 18px;
+}
+
+.content-contact {
+  width: 50%;
+}
